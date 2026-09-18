@@ -1,0 +1,13 @@
+** Synthetic parser fixture, not a complete analysis deck.
+*Part, name=ComponentA
+*Node
+1, 0, 0, 0
+2, 1, 0, 0
+** Comments inside a node block are allowed.
+3, 0, 1, 0
+*End Part
+*Part, name=ComponentB
+*Node
+1, 0, 2, 0
+2, 1, 2, 0
+*End Part
